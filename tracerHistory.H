@@ -2,10 +2,24 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     |
-    \\  /    A nd           |
+    \\  /    A nd           | Copyright (C) 2026 Akiseherol
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
-    Derived from dataCloud.H
+License
+    This file is part of OpenFOAM. It is free software: you can redistribute 
+    it and/or modify it under the terms of the GNU General Public License 
+    as published by the Free Software Foundation.
+
+Class
+    Foam::functionObjects::tracerHistory
+
+Description
+    A functionObject to track and export the history of Lagrangian particles.
+    It creates individual ASCII files for each parcel, recording its 
+    position and the value of a specified field at each write interval.
+
+Author
+    Akiseherol
 \*---------------------------------------------------------------------------*/
 
 #ifndef tracerHistory_H

@@ -1,3 +1,27 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     |
+    \\  /    A nd           | Copyright (C) 2026 Akiseherol
+     \\/     M anipulation  |
+-------------------------------------------------------------------------------
+License
+    This file is part of OpenFOAM. It is free software: you can redistribute 
+    it and/or modify it under the terms of the GNU General Public License 
+    as published by the Free Software Foundation.
+
+Application
+    tracerHistory
+
+Description
+    functionObject to output Lagrangian tracer data (positions and fields)
+    into individual per-particle history files (.dat).
+
+Author
+    Akiseherol
+\*---------------------------------------------------------------------------*/
+
+
 #include "tracerHistory.H"
 #include "Cloud.H"
 #include "dictionary.H"
