@@ -1,12 +1,6 @@
 [![OpenFOAM version](https://img.shields.io/badge/OpenFOAM-v2412-brightgreen)](https://www.openfoam.com/)
 ## Overview
-TracerHistory is a OpenFOAM functionObject designed to track and export the trajectory and field data of individual Lagrangian particles over time.
-It generates a dedicated `.dat` file for every single particle detected in the simulation.
-
-Ensure in `Make/files`:
-```
-LIB = $(FOAM_USER_LIBBIN)/libtracerHistory
-```
+TracerHistory is a OpenFOAM functionObject designed to track and export the trajectory and field data of individual Lagrangian particles over time. It generates a dedicated `.dat` file for every single particle detected in the simulation.
 
 ## Usage
 In system/controlDict:
